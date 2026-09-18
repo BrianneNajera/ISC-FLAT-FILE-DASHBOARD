@@ -14,7 +14,7 @@ const templates = [
   ['XREF_IOS_DEMAND', 'EDW_AERO_XREF_ISC_SPEX_DEAMND.xlsx', '221D31B6-5575-4B5D-A1DA-A78B3E68F611', 'Finance: Jesse Jirousek', 'Quarterly', 'Manual', true],
   ['XREF_IOS_DEMAND', 'EDW_AERO_XREF_ISC_SERVIGISTICS_DEAMND.xlsx', '264382FB-472A-4A5F-A49C-1BA10E19C04E', 'Finance: Jesse Jirousek', 'Quarterly', 'Manual', true],
   ['XREF_IOS_DEMAND', 'EDW_AERO_XREF_ISC_LTB_DEAMND.xlsx', 'B93CF0BB-52B6-4A0A-8D41-8F4F1B9D948E', 'Finance: Jesse Jirousek', 'Quarterly', 'Manual', true],
-  ['XREF_ISC_IOS_WAIVER', 'EDW_AERO_XREF_IOS_WAIVER.xlsx', '2EFA1D83-0FD3-4A6E-957E-E109022B9048', 'Finance: Camryn Gray', 'Quarterly', 'Manual', true],
+  ['XREF_ISC_IOS_WAIVER', 'EDW_AERO_XREF_ISC_IOS_WAIVER.xlsx', '2EFA1D83-0FD3-4A6E-957E-E109022B9048', 'Finance: Camryn Gray', 'Quarterly', 'Manual', true],
   ['XREF_OP_CENTER', 'EDW_AERO_ISC_XREF_OP_CENTER.xlsx', '7D6CDCC2-A233-4BD3-9FFA-5C1BB4EE99DE', 'Finance & ISCA', 'As needed', 'Manual'],
   ['XREF_OP_CENTER', 'EDW_AERO_ISC_XREF_OP_CENTER_PROCUREMENT.xlsx', '1B6E6FD9-2D3B-4EE0-9E77-C8DEBF0FA1DB', 'Julie Ehrenreich / Chenin Rogers', 'As needed', 'Manual'],
   ['XREF_OP_CENTER', 'EDW_AERO_ISC_XREF_OP_CENTER_PLANNING.xlsx', '22675B20-8772-484D-9A81-733229864355', 'Julie Ehrenreich / Chenin Rogers', 'As needed', 'Manual'],
