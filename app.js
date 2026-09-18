@@ -44,7 +44,7 @@ for (const [model, file, id, owner, frequency, type, defect, pending, externalUr
   const csvUrl = csvAssetPath(file);
   const localAssetUrl = externalUrl ? externalUrl.replace(/\.xlsx$/i, '.csv').replace(/^assets\//, 'assets/template-csv/') : null;
   const url = localAssetUrl || csvUrl;
-  const displayFile = file.replace(/\.xlsx$/i, '.csv');
+  const displayFile = model === 'XREF_ISC_IOS_WAIVER' ? 'EDW_AERO_XREF_ISC_IOS_WAIVER.csv' : file.replace(/\.xlsx$/i, '.csv');
   const link = !url ? `<span class="template-link pending">${displayFile}</span>` : `<a class="template-link${pending ? ' pending' : ''}" href="${url}" download="${displayFile}">${displayFile}</a>`;
   const typeValue = defect ? `<span class="type-with-indicator">${type}<span class="defect-dot defect-inline" aria-label="Defect report available"></span></span>` : type;
   const modelCell = renderedModels.has(model) ? '' : `<td class="data-model" rowspan="${modelCounts[model]}">${model}</td>`;
